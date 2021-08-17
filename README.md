@@ -23,7 +23,7 @@ from visionLiveSDK3.apiClient import ApiClient
 
 appSecret = '{Your App Secret}'
 appKey='{Your App Key}'
-client = ApiClient('http://www.city.gov/API',appKey, appSecret)
+client = ApiClient('https://www.city.gov/API',appKey, appSecret)
 
 # vision.cms.calendarcomponent.event.get is the API Name
 eventResult = client.vision.cms.calendarcomponent.event.get(Fields=1, ID=3754)
