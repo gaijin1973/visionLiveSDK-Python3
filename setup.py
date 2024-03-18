@@ -34,5 +34,4 @@ setup(name='visionLiveSDK3',
         'Topic :: Software Development :: Libraries :: Python Modules',
         ],
     license='AGPLv3+',
-    use_2to3=True,
     )
